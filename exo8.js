@@ -3,6 +3,12 @@ const choix = ["pierre", "feuille", "ciseaux"];
 const ordi = choix[Math.floor(Math.random() * 3)];
 
 let player = prompt("Pierre, feuille, ciseaux ?");
+
+
+if(!choix.includes(player)){
+    console.log("Veuillez entrez un choix valide");
+    process.exit();
+}
 console.log(`Vous avez fait ${player} et l'ordinateur a fait ${ordi} !`);
 
 if(player===ordi){
