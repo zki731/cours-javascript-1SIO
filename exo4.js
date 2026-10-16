@@ -1,0 +1,3 @@
+console.log(7 / 2);
+console.log(7 % 2);
+console.log(10 % 5);
