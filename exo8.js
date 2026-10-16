@@ -14,14 +14,10 @@ console.log(`Vous avez fait ${player} et l'ordinateur a fait ${ordi} !`);
 if(player===ordi){
     console.log("Égalité");
 }
-else if(player==="pierre" && ordi==="ciseaux"){
+else if(player==="pierre" && ordi==="ciseaux" 
+        ||player==="ciseaux" && ordi==="feuille"
+        ||player==="feuille" && ordi==="pierre"){
     console.log("Vous avez gagné");
-}
-else if(player==="ciseaux" && ordi==="feuille"){
-    console.log("Vous avez gagné");
-}
-else if(player==="feuille" && ordi==="pierre"){
-    console.log("Vous avez gagné")
 }
 else{
     console.log("vous avez perdu !")
