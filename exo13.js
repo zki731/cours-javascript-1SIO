@@ -21,5 +21,5 @@ else{
 }
 //Partie de l'exo sur estPair 
 for(let n = 1; n <= 20; n++){
-    console.log(estPair(n))
+    console.log(Number(estPair(n)))
 }

@@ -1,0 +1,8 @@
+2026-10-08 08:01:12 INFO Démarrage du serveur
+2026-10-08 08:03:45 INFO Connexion de alice
+2026-10-08 08:15:02 ERROR Échec de connexion pour bob
+2026-10-08 08:15:30 WARNING Disque à 85%
+2026-10-08 08:17:11 ERROR Échec de connexion pour bob
+2026-10-08 08:20:00 INFO Connexion de carole
+2026-10-08 09:02:33 ERROR Timeout base de données
+2026-10-08 09:05:10 INFO Sauvegarde terminée
