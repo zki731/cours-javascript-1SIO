@@ -10,7 +10,7 @@ const lignesErreur = []
 for(let i = 0; i < lignes.length; i++){
     if(lignes[i].includes("ERROR")){
         errorCount++;
-        lignesErreur.push(`${i + 1} : ${lignes[i]}`) //on incrémente i (car il commence a 0 dans notre tableau) et on affiche la valeur actuelle de I
+        lignesErreur.push(`${i + 1} : ${lignes[i]}`) //on incrémente i (car il commence a 0 dans notre tableau) et on affiche la valeur actuelle de I ()
     }
     else if(lignes[i].includes("WARNING")){
         warningCount++;
