@@ -9,3 +9,12 @@ function addToList(){
     nouvelLi.textContent ="Cock"
     list.appendChild(nouvelLi)
 }
+function addToList2(event){
+    event.preventDefault();
+    const list2 = document.getElementById("list2")
+    const nouvelLi2 = document.createElement("li")
+    const input = document.getElementById("text")
+    nouvelLi2.textContent = input.value
+    list2.appendChild(nouvelLi2)
+    input.value = ""
+}
