@@ -20,8 +20,13 @@ function addToList2(event){
 }
 //fonction de l'exo 3 :
 function calculate(){
-    const input1 = document.getElementById("first-number");
+    const input1 = document.getElementById("first-number"); 
     const input2 = document.getElementById("second-number");
     const result = Number(input1.value) + Number(input2.value);
+    if(isNaN(input1.value) || isNaN(input2.value)){
+        document.getElementById("result").textContent='Veuillez entrez des nombres valides';
+        return
+    }
     document.getElementById("result").textContent = `Le résultat est : ${result}`;
+    
 }
